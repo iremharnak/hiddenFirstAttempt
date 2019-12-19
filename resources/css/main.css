@@ -17,20 +17,19 @@ ul {
     
 } */
 .banner {
-    background-image: url("../images/paris-banner.jpg");
+    background-image: url("../images/paris-hidden3.jpg");
     background-size: cover;
-    height: 600px;
+    height: 800px;
+    /* position: relative; */
 }
 .caption {
     display: block;
-  
-    font-size: 14px;
-    font-style: italic;
+    font-style: bold;
     line-height: 14px;
     margin-left: 20px;
     padding: 10px;
     position: relative;
-    top: 80%;
+    top: 40%;
     width: 60%;
     /* background-color: white; */
     color: white;
