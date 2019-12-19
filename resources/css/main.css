@@ -12,10 +12,11 @@ ul {
 }
 
 /* Navigation bar */
-/* .navigateStyle {
+.navigateStyle {
     font-style: bold;
-    
-} */
+     
+}
+/* Banner */
 .banner {
     background-image: url("../images/coverHidden.jpg");
     background-size: cover;
