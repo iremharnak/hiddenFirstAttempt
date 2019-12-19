@@ -17,7 +17,7 @@ ul {
     
 } */
 .banner {
-    background-image: url("../images/paris-hidden3.jpg");
+    background-image: url("../images/coverHidden.jpg");
     background-size: cover;
     height: 800px;
     /* position: relative; */
@@ -33,4 +33,11 @@ ul {
     width: 60%;
     /* background-color: white; */
     color: white;
+}
+
+.bannerParis {
+    background-image: url("../images/paris-hidden3.jpg");
+    background-size: cover;
+    height: 800px;
+    /* position: relative; */
 }
