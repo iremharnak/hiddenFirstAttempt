@@ -14,5 +14,9 @@ ul {
 /* Navigation bar */
 /* .navigateStyle {
     font-style: bold;
-    display: inline-block;
+    
 } */
+.deneme {
+    /* background-color: blue; */
+    background-image: url("resources/images/paris-banner.jpg")
+}
