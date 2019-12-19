@@ -12,19 +12,10 @@ ul {
 }
 
 /* Navigation bar */
-.navigateStyle {
+/* .navigateStyle {
     font-style: bold;
-    
-}
-/* Banner */
-/* .banner {
-    background-image: url("images/paris3.jpg");
-    border: 1px red solid;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+    display: inline-block;
 } */
-.bannerIntro {
-    /* display: block;
-    color: beige; */
+nav {
+    text-align: center;
 }
