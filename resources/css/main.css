@@ -1,3 +1,14 @@
+/* CSS HACK */
+* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * * { background-color: rgba(255,0,0,.2); }
+* * * * * * * * { background-color: rgba(0,255,0,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); }
+
 /* General rules */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -26,8 +37,12 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-.searchButton {
-    style
+
+/* Gallery of cities */
+
+.variousCities ul {
+    display: flex;
+    justify-content: space-around;
 }
 /* Banner */
 .banner {
@@ -51,7 +66,7 @@ ul {
 
 .bannerParis {
     background-image: url("../images/paris-hidden3.jpg");
-    background-size: cover;
+    background-size: contain;
     height: 800px;
-    /* position: relative; */
+    
 }
