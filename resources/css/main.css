@@ -12,9 +12,15 @@ ul {
 }
 
 /* Navigation bar */
-.navigateStyle {
+.navBar {
     font-style: bold;
+    display: flex;
+    justify-content: space-around;
      
+}
+nav {
+    display: flexbox;
+    justify-content: flex-end;
 }
 /* Banner */
 .banner {
