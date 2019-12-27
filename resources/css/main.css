@@ -14,13 +14,20 @@ ul {
 /* Navigation bar */
 .navBar {
     font-style: bold;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
      
 }
-nav {
-    display: flexbox;
-    justify-content: flex-end;
+.navBar a {
+    margin-top: 40px;
+    border: 1px red solid;
+}
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.searchButton {
+    style
 }
 /* Banner */
 .banner {
